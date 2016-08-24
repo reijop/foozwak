@@ -1,0 +1,6 @@
+build:
+  image: alpine
+  commands:
+    - echo one
+    - echo two
+    - echo ${three}
